@@ -174,6 +174,11 @@
         flex-direction: column;
         width: 60%;
     }
+
+    .whatsapp-chat {
+        width: 7rem;
+        right: 2rem;
+    }
 }
 
 /* Dispositivos pequenos (telefones, 780px ou menos) */
@@ -297,6 +302,11 @@
     .formSection {
         text-align: center;
     }
+
+    .whatsapp-chat {
+        width: 6rem;
+        
+    }
 }
 
 /* Dispositivos extra pequenos (telefones, 600px ou menos) */
@@ -359,6 +369,10 @@
 
     footer a, h5 {
         font-size: 1.2rem;
+    }
+
+    .whatsapp-chat {
+        width: 4.5rem;
     }
 }
 
