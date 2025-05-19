@@ -9,6 +9,12 @@ html {
     font-size: 62.5%;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: light;
+  }
+}
+
 :root {
     --font-poppins: "Poppins", sans-serif;
     --font-sen: "Sen", sans-serif;
